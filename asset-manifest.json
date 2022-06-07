@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Motivational2020/static/css/main.073c9b0a.css",
+    "main.js": "/Motivational2020/static/js/main.da55d140.js",
+    "static/js/787.102dc5d4.chunk.js": "/Motivational2020/static/js/787.102dc5d4.chunk.js",
+    "static/media/logo.svg": "/Motivational2020/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Motivational2020/index.html",
+    "main.073c9b0a.css.map": "/Motivational2020/static/css/main.073c9b0a.css.map",
+    "main.da55d140.js.map": "/Motivational2020/static/js/main.da55d140.js.map",
+    "787.102dc5d4.chunk.js.map": "/Motivational2020/static/js/787.102dc5d4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.da55d140.js"
+  ]
+}
