@@ -22,7 +22,7 @@ function App() {
 	// slightly favor higher numbers on toggle
 	if (toggle == 1)
 	{
-		min = 90;
+		min = 80;
 	}
 	return Math.floor(Math.random() * (max - min + 1)) + min; 
   }
@@ -35,9 +35,11 @@ function App() {
 	  quotation = JSON.parse(jsonStr);	 
 	
 	  if (quotation.quotes[idx] === undefined){
+		setQuote("                                                                                                                                                            ");
 		setQuote("do or do not there is no try - yoda");
 	  }
 	  else{
+		setQuote("                                                                                                                                                                    ");
 		setQuote(quotation.quotes[idx].quote);
 	  }
 	  return;
