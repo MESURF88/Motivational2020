@@ -56,7 +56,7 @@ function App() {
 		  <h3>Motivational Quotes</h3>
 			<img src="https://images.unsplash.com/photo-1497561813398-8fcc7a37b567?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="motivation"/>
 			<div className="bookEndBox"> quote: </div>
-			<div className="quoteBox"> {quote} </div>
+			<div className="quoteBox"> <p>{quote}</p> </div>
 			<div className="bookEndBox"> You can Do it! </div>
 			<button onClick={() => getQuotes()} >Get Quote</button>
 		</div>

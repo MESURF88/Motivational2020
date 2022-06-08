@@ -24,6 +24,11 @@
   border-radius: 5px;
 }
 
+p {
+  text-align: center;
+  padding-left: 15px;
+}
+
 img {
   width: 150px;
   height: 100px;
