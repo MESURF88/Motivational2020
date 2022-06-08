@@ -9,7 +9,7 @@ function App() {
   
   const randomIndex = () => {
 
-	if (toggle == 1)
+	if (toggle === 1)
 	{
 	  setToggle(0);
 	}
@@ -20,7 +20,7 @@ function App() {
 	var min = Math.ceil(3);
 	var max = Math.floor(114);
 	// slightly favor higher numbers on toggle
-	if (toggle == 1)
+	if (toggle === 1)
 	{
 		min = 80;
 	}
@@ -34,13 +34,12 @@ function App() {
 	  const jsonStr = JSON.stringify(jsonData);
 	  quotation = JSON.parse(jsonStr);	 
 	
-	  if (quotation.quotes[idx] === undefined){
-		setQuote("                                                                                                                                                            ");
-		setQuote("do or do not there is no try - yoda");
+	  if (quotation.quotes[idx] === undefined)
+	  {
+		setQuote("do or do not there is no try - yoda                                                                                                                                                             ");
 	  }
 	  else{
-		setQuote("                                                                                                                                                                    ");
-		setQuote(quotation.quotes[idx].quote);
+        setQuote(quotation.quotes[idx].quote + "                                                                                                                                                           ");
 	  }
 	  return;
   };
