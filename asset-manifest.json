@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Motivational2020/static/css/main.b75a592a.css",
-    "main.js": "/Motivational2020/static/js/main.15454d60.js",
+    "main.js": "/Motivational2020/static/js/main.0415cc03.js",
     "static/js/787.102dc5d4.chunk.js": "/Motivational2020/static/js/787.102dc5d4.chunk.js",
     "index.html": "/Motivational2020/index.html",
     "main.b75a592a.css.map": "/Motivational2020/static/css/main.b75a592a.css.map",
-    "main.15454d60.js.map": "/Motivational2020/static/js/main.15454d60.js.map",
+    "main.0415cc03.js.map": "/Motivational2020/static/js/main.0415cc03.js.map",
     "787.102dc5d4.chunk.js.map": "/Motivational2020/static/js/787.102dc5d4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b75a592a.css",
-    "static/js/main.15454d60.js"
+    "static/js/main.0415cc03.js"
   ]
 }
